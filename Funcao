@@ -1,4 +1,4 @@
-Def main_num (Lista_num):
+def maior_num (lista_num):
     lista_num.sort ()
     lista_num.reverse ()
     maior_num = lista_num [0]
