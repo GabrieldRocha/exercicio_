@@ -1,0 +1,8 @@
+Def main_num (Lista_num):
+    lista_num.sort ()
+    lista_num.reverse ()
+    maior_num = lista_num [0]
+    return maior_num    # esse return seria sustituiçao da chamada maior_num?
+ 
+Resultado = maior_num ([438,8930,75,-78,0])
+print (Resultado)
