@@ -1,0 +1,18 @@
+Nome = True
+Cpf = True
+
+   input ("Nome"):
+   print (f "Favor digite seu nome: {Nome} ")
+   
+  
+if Nome and Cpf:
+   print ("Favor aguarde:")
+
+   input ("Cpf"):
+   print (f "Digite seu cpf: {Cpf} ___.___.___-__")
+      
+else:
+  print ("Digite novamente:")
+  
+def informacoes_corretas (OK):
+  return informacoes_corretas
