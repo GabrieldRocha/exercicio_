@@ -1,18 +1,38 @@
+print("---"*6)
+
 Nome = True
-Cpf = True
+cpf = True
 
-   input ("Nome"):
-   print (f "Favor digite seu nome: {Nome} ")
-   
-  
-if Nome and Cpf:
-   print ("Favor aguarde:")
+str(input(f"Favor digite seu nome: "))
 
-   input ("Cpf"):
-   print (f "Digite seu cpf: {Cpf} ___.___.___-__")
-      
+print("---"*6)
+
+int(input(f"Digite seu cpf: "))
+print("---"*6)
+
+print("Favor aguarde:")
+print("---"*6)
+
+
+Nomes = [
+
+["a,b,c,d"],
+["e,f,g,h"],
+["i,j,k,l"],
+["m,n,o,p"],
+
+]
+
+CPF = [
+
+[1,2,3],
+[4,5,6],
+[7,8,9],
+[0],
+
+]
+
+if Nomes == CPF:
+    print("Seus dados estão corretos")
 else:
-  print ("Digite novamente:")
-  
-def informacoes_corretas (OK):
-  return informacoes_corretas
+    print("Tente novamente mais tarde!!")
